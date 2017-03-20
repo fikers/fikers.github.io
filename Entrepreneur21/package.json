@@ -1,0 +1,19 @@
+{
+  "name": "entrepreneur21",
+  "version": "1.0.0",
+  "description": "Responsive Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fikers/Entrepreneur-21.git"
+  },
+  "author": "Faique Moqeet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fikers/Entrepreneur-21/issues"
+  },
+  "homepage": "https://github.com/fikers/Entrepreneur-21#readme"
+}
