@@ -52,7 +52,7 @@
 
   h1 {
      margin-top: 0px;
-     
+
   }
 
   h3{
@@ -69,6 +69,14 @@
     border: 2px solid white;
   }
 
+  .friction {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .friction img {
+    width: 70%;
+  }
   @media (max-width: 700px) {
 
     .maindiv {
@@ -83,6 +91,10 @@
       width: 20%;
       margin-bottom: 10px;
       border: 2px solid white;
+    }
+
+    .friction img {
+      width: 100%;
     }
 
   }
@@ -103,10 +115,10 @@
     <hr>
   <h3>The Backstory</h3>
 
-  <p>My sophomore year at Northwestern, I took my first entrepreneurship class and loved it. It wasn’t that I felt a class could teach me how to start a company, but I  loved that I could get course credit for a project I'd work on even if I wasn't in a class.
+  <p>My sophomore year at Northwestern, I took my first entrepreneurship class and I loved it. It wasn’t that I felt a class could teach me how to start a company, but I loved that I could get credit for something I'd likely work on even if I wasn't in a class.
   </p>
 
-  <p>I worked on an app called Zysty, an events-focused messaging app that allowed for micro services like being able to vote on options, seeing Yelp data from inside the app, being able to call an Uber, etc. I actually worked on the idea for more than a year after my class. As a result of the more than one year of customer development, market research, and even running tests using wireframes (see the 2012 version below!), I have a strong understanding of this space. I wanted to share some thoughts on why I stopped working on Zysty and how I think this space would play out.
+  <p>I worked on an app called Zysty, an event-focused messaging app that incorporated micro services. For instance, users could vote on activity options, see Yelp reviews, and make a reservation via OpenTable or call an Uber - all within the app. I worked on the idea for more than a year after my class ended. As a result of the customer development, market research, and even running tests using wireframes (see the 2012 version below!), I have a strong understanding of this space. I wanted to share some thoughts on why I stopped working on Zysty and how I think this space would play out.
   </p>
 
   <div class="pics">
@@ -137,9 +149,17 @@
     </center>
   </div>
 
+  <h3>The Idea</h3>
+
+  <p>Really quickly, I wanted to share a graphic I made to showcase the problem Zysty was addressing in the first place. Namely, Zysty was about reducing friction in the event coordination space. As you can see, there's a lot of friction between wanting to hang out with friends and ultimately spending time with friends.</p>
+
+  <div class="friction">
+    <img src="../images/ZystyFriction.png">
+  </div>
+
   <h3>Multidimensional Problem</h3>
 
-  <p>By far, the biggest issue with making something like Zysty come to life is honing down on the actual problem. For my class, I interviewed and surveyed 300 people asking them about the hardest part about planning hangouts out with friends. I got incredibly diverse answers. However, they essentially fell into one of three major categories: people, places, time. Even within these areas, there’s a variety of issues that are relevant.
+  <p>By far, the biggest issue with making something like Zysty come to life is clearly defining the pain point. For my class, I interviewed and surveyed 300 people asking them about the difficulties involved in planning hangouts out with friends. I got incredibly diverse answers. However, they essentially fell into one of three major categories: people, places, or time. Even within these areas, there’s a variety of issues that are relevant.
   </p>
 
   <p>For instance: Who would be interested in this event? Who should I invite? How can I meet new people through my current friends? What can I do about that one friend who always bails?
@@ -148,54 +168,57 @@
   <p>And: Where should we go? What are popular things to do in this area at this time? What are some deals on places I can go? What are the best restaurants? Who wants to go where?
   </p>
 
-  <p>Or: When is everyone free? Is this place open when we’re free? When is this event occurring? Will you be available at this time? Which is the best time?
+  <p>Or: When is this event occurring? When is everyone free? Is this place open when we’re free?
   </p>
 
-  <p>Seeing as there are so many different user scenarios that all fall under the event coordination space, there’s two approaches. The first approach is to pick a single scenario and address it really well. However, the problem with this is that there are already other apps that address many of these singular problems fairly well. For instance, want to figure out when everyone is free? Use Doodle or When2Meet. Likewise, addressing these singular issues limits the market and subsequent opportunity drastically.
+  <p>Seeing as there are so many different user scenarios that all fall under the event coordination space, there’s two approaches. The first approach is to pick a single scenario and address it really well. However, the problem with this is that there are already other apps that address many of these singular problems fairly well. For instance, want to figure out when everyone is free? Use <a href="http://doodle.com/">Doodle</a> or <a href="https://www.when2meet.com/">When2Meet</a>. Likewise, addressing these singular issues limits the market and subsequently, the opportunity.
   </p>
 
-  <p>The second approach is to try and address as many of these user scenarios as possible while trying to keep it simple. However, in practicality, this becomes an app filled with many features and no clear value then. This leads to an okay product that isn’t 10x better than the alternatives, which in this case is just messaging friends and looking up information manually. Simply put, what is the killer functionality that compels someone to download the app? Depending on which problem you’re solving, that answer is totally different.
+  <p>The second approach is to try and address as many of these user scenarios as possible while keeping it simple, which is the approach Zysty and most other apps take. However, in practicality, this becomes an app filled with many features and no clearly defined value proposition. This leads to an okay product that isn’t 10x better than the alternatives, which in this case is messaging friends and doing things manually. Simply put, what is the killer functionality that compels someone to download the app? Depending on which problem you’re solving, that answer is different.
   </p>
 
   <h3>Competitive Space</h3>
 
-  <p>Once you realize that any events app must include a messaging component to lets users communicate event details, you realize that at its core, Zysty has to be a messaging app. As a result, you face the problem of convincing users to download ‘yet another messaging app’. You face the same app fatigue that all messaging apps due: it’s a competitive, saturated market and users are hesitant to download another app for almost the same purpose. The most common feedback I received from users was ‘this would be a really cool feature on an existing messaging app.’ I think users are on to something meaningful here but more on the below.
+  <p>Once you realize that any events app must include a messaging component to let users communicate event details, you realize that, at its core, Zysty has to be a messaging app. As a result, you face the problem of convincing users to download ‘yet another messaging app’. You face the same <a href="http://fortune.com/2016/08/16/app-fatigue-is-taking-a-toll-on-smartphone-owners/"> app fatigue</a> that all messaging apps face: it’s a competitive, saturated market and users are hesitant to download another app for almost the same purpose. The most common feedback I received from users was ‘this would be a really cool feature on an existing messaging app.’ I think users are on to something meaningful here but more on the below.
   </p>
 
   <h3>Low Usage Frequency</h3>
 
-  <p>Assuming you could somehow get 5 million users, the app would still suffer from low-frequency usage since most users would be using an app like this at most once or twice a week.
+  <p>Assuming you could somehow get 5 million users, the app would still suffer from low-frequency usage since most users would be using Zysty at most once or twice a week.
   </p>
   <h3>Network Effects</h3>
 
-  <p>The challenge of getting users to download an app that only has value once they’re friends also have it is also very daunting. This is the main reasons why users prefer something like Zysty but as an add-on to existing services.
+  <p>The challenge of getting users to download an app that only has value once their friends are on it is hard to understate. This is the main reasons why users want something like Zysty as an add-on to existing services, which provide a large fraction of the packaged value.
   </p>
   <h3>Monetization</h3>
 
-  <p>I think this is one of the potentially weaker areas of my understanding since I don’t know if I take monetization seriously given the fact that it’s really only relevant once and only if you are able to get a sizable user base. However, since much of the value of the app is based on micro services, that is, it utilizes external data via APIs, at scale, it’s likely that there would be revenue sharing with data providers. Personally, these types of considerations always feel premature unless you have a path to a 100M users. Yet, it’s worth nothing that you actually can’t generate revenue until you achieve that sizable user base since vendors won’t care to work with you. ff'
+  <p>I haven't spent much time reading or thinking about monetization for Zysty since it’s really only relevant once and only if you are able to get a sizable user base. However, since much of the value of the app is based on micro services, that is, it utilizes external data via APIs, at scale, it’s likely that there would be revenue sharing with data providers. Personally, monetary considerations always feel premature unless you have a path to a 100M users. The fact of the matter is, a product like Zysty is almost always monetized through some form of advertising or revenue share on a transaction basis. It's hard to get too creative with this business model. Yet, it’s worth noting that you actually can’t generate revenue until you achieve a sizable user base since vendors likely won’t care to work with you.
   </p>
   <h3>Snapchat and Vurb</h3>
 
   <img src="http://3.bp.blogspot.com/-S9bcSiby-JM/VdxukTjWFzI/AAAAAAAAAkU/u9C2Q_WhUDE/s1600/Vurb.png" width="100%">
+  <br>
 
-  <p>One of the main reasons I stopped working on Zysty was that I came across a startup, <a href="https://vurb.com/">Vurb</a>, I felt like was going to do exactly what Zysty set out to do and do it well. Vurb was an events-driven messaging app that let users share activities cards.<a href="#footerNotes"><sup>1</sup></a> I wasn’t sure how exactly it would pan out but I knew I didn’t have the resources to compete with a well-funded startup run by experienced founders.
+  <p>One of the main reasons I stopped working on Zysty was that I came across a startup, <a href="https://vurb.com/">Vurb</a>, that I felt was going to do exactly what Zysty set out to do and do it well. Vurb was an event-focused messaging app that let users share activities cards.<a href="#footerNotes"><sup>1</sup></a> I wasn’t sure how exactly it would pan out but I knew I didn’t have the resources to compete with a well-funded startup run by experienced founders.
   </p>
 
-  <p>Vurb went on to raise $10M dollars and was <a href="http://www.latimes.com/business/technology/la-fi-tn-snapchat-vurb-20160815-snap-story.html">acquired by Snap for $170M</a> in August 2016. Hearing about the Snap acquisition made perfect sense to me especially when I found out 2 things: 1) Vurb failed to get traction and 2) Snap paid $75M to retain Bobby Lo, the founder. If Vurb wasn’t actually able to crack the market and get traction, why did Snap acquire them? My belief is that Snap would like to incorporate Vurb/Zysty’s features into Snapchat and wants to bring in the team’s expertise to build it within Snapchat. Unlike anyone who tries to build Zysty/Vurb from scratch, Snap already has 150M users who are using the app in a way that naturally extends to facilitating hangouts.
+  <p>Vurb went on to raise $10M dollars and was <a href="http://www.latimes.com/business/technology/la-fi-tn-snapchat-vurb-20160815-snap-story.html">acquired by Snap for $175M</a> in August 2016. Hearing about the Snap acquisition made perfect sense to me especially when I found out 2 things: 1) Vurb didn't really have traction, and 2) Snap paid $75M to retain Bobby Lo, the founder. If Vurb wasn’t actually able to crack the market and get traction, why did Snap acquire them? My belief is that Snap would like to incorporate Vurb/Zysty’s features into Snapchat and wants to bring in the teams' expertise to build it within Snapchat. Unlike anyone who tries to build Vurb/Zysty from scratch, Snap already has 150M+ users who are using the app in a way that naturally extends to facilitating hangouts.
   </p>
 
-  <p>Snap benefits from increasing its appeal to a growing, older demographic. Likewise, it opens the way for them to add additional revenue streams once users are utilizing these features. Meanwhile, they are best positioned in the messaging space to move into this space because hangouts between friends is entertainment, which falls squarely under Snapchat’s ‘media and entertainment’ appeal. Messenger, WhatsApp, GroupMe, etc. could all create this same functionality but Snapchat is where users go to be their most authentic selves and there’s nothing to show or present when creating a hangout with friends.
+  <p>Snap benefits from increasing its appeal to a growing, older demographic. Likewise, it opens the way for them to add additional revenue streams once users are utilizing these features. Meanwhile, they are best positioned in the messaging space to address this problem because hangouts between friends is entertainment, which falls squarely under Snapchat’s ‘media and entertainment’ appeal. Messenger, WhatsApp, GroupMe, etc. could all create this same functionality (which they are ever so closely inching towards, as shown below), but Snapchat is where users go to be their most authentic selves. There's nothing snazzy about coordinating a hangout with friends, nothing to share or post, except maybe sharing a snap at the end. Likewise, when it comes to media and entertainment, users expect a design-first product, which is one of Snap's core competencies over its competitors.
   </p>
+
 
   <h3>Conclusion</h3>
 
-  <p>I am not the only one who has ventured into this space and come to these conclusions about the viability of this space. Adam Waxman, who founded <a href="http://www.buildbreaklearn.co/blog/getting-friends-together-a-postmortem">Flock </a> , built a similar product and wrote a post-mortem sharing similar insights on why this is such a hard space.  I think what’s really exciting is Snapchat moving into this space. I'm curious to see how they tackles this problem and what this functionality might look like as an add-on to Snapchat.
+  <p>I am not the only one who has ventured into this space and come to these conclusions about the viability of this space. Adam Waxman, who founded <a href="http://www.buildbreaklearn.co/blog/getting-friends-together-a-postmortem">Flock </a> , built a similar product and wrote a post-mortem sharing similar insights on why this is such a hard space. Actually, there are 2 more product worth mentioning. <a href="https://techcrunch.com/2017/03/08/soons-event-finding-app-is-a-social-calendar-for-the-mobile-generation/">Soon</a>, which was recently released by <a href="https://twitter.com/Mazzeo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Matt Mazeo</a> of LowerCase Capital, and <a href="http://wevyte.com/">WeVyte</a> run by <a href="https://www.linkedin.com/in/blainefarr/">Blaine Farr</a>. I had a chance to speak with someone at WeVyte and he echoed similar concerns in their experience so far (e.g. low usage frequency, etc.) I think what’s really exciting is Snapchat moving into this space. I'm curious to see how they tackle this problem and what this functionality might look like as an add-on to Snapchat.
   </p>
+
 
 
   <p id="footerNotes">
     <h5>Footnotes<br><br>
-    They added messaging later on, but as I mentioned above, if you try to solve this problem, you eventually realize, any solution will have to become a messaging app with modules. </h5> </p>
+    <sup>1</sup>Vurb added messaging later on, but as I mentioned above, if you try to solve this problem, you eventually realize, any solution will have to become a messaging app with micro serices. </h5> </p>
 
 
 </div>
