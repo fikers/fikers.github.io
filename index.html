@@ -6,17 +6,18 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
   <style>
-  *{
-    position: relative;
 
+  html {
+    overflow-x:hidden;
   }
 
   body {
-    margin:0px;
+    margin: 0px;
     background-color: #fff;
     font-size: 17px;
     color: black;
     font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
   }
 
   h1 {
@@ -31,8 +32,10 @@
     text-align: center;
   }
 
-  .pics img {
-    width: 100%;
+  .pics img{
+    width: 11%;
+    margin-bottom: 10px;
+    border: 2px solid white;
   }
 
   .title, .title a {
@@ -67,18 +70,19 @@
   a {
     text-decoration: none;
   }
+
+  .links{
+    display: inline;
+  }
+
+  .ent21 img {
+    width: 100%;
+  }
+
   @media (max-width: 770px) {
 
     .pics {
       text-align: center;
-    }
-
-  }
-
-  @media (min-width: 1000px) {
-
-    .pics img{
-      width: 80%;
     }
 
   }
@@ -92,6 +96,12 @@
 
     .links{
       display: none;
+    }
+
+    .pics img{
+      width: 20%;
+      margin-bottom: 10px;
+      border: 2px solid white;
     }
 
   }
@@ -132,17 +142,19 @@
       <div class="zysty">
       <h3 class="title">Zysty</h3>
       <p>Zysty was an events-based messaging app I thought of in an entrepreneurship class at Northwestern. It was the first time I got to flex my design skills. Recently, I decided to redesign the concept and present it for a job interview. Below are my updated mock ups. Having spent a considerable amount of time doing customer development for this idea, <span style="color: #00a9ec"><a href="pages/ZystyWriteUp.html"> here are my thoughts </a></span> on how this space might realistically play out in the long term. </p>
-      <br>
-        <div class="pics">
-            <img src="images/1.png" style="width: 20%; margin-bottom: 10px; border: 2px solid white;">
-            <img src="images/2.png" style="width: 20%; margin-bottom: 10px; border: 2px solid white;">
-            <img src="images/3.png" style="width: 20%; margin-bottom: 10px; border: 2px solid white;">
-            <img src="images/4.png" style="width: 20%; margin-bottom: 10px; border: 2px solid white;">
-            <img src="images/5.png" style="width: 20%; margin-bottom: 10px; border: 2px solid white;">
-            <img src="images/6.png" style="width: 20%; margin-bottom: 10px; border: 2px solid white;">
-            <img src="images/7.png" style="width: 20%; margin-bottom: 10px; border: 2px solid white;">
-            <img src="images/8.png" style="width: 20%; margin-bottom: 10px; border: 2px solid white;">
-        </div>
+      <div class="pics">
+          <center>
+          <h4> Zysty in 2017 </h4>
+          <img src="images/Zysty2017/1.png">
+          <img src="images/Zysty2017/2.png">
+          <img src="images/Zysty2017/3.png">
+          <img src="images/Zysty2017/4.png">
+          <img src="images/Zysty2017/5.png">
+          <img src="images/Zysty2017/6.png">
+          <img src="images/Zysty2017/7.png">
+          <img src="images/Zysty2017/8.png">
+        </center>
+      </div>
       </div>
       <br>
       <hr>
@@ -152,7 +164,7 @@
         <h3 class="title"><a href="Entrepreneur21/index.html">Entrepreneur 21 (work in progress)</a></h3>
         <p> In my 2 years of working on Admit Hero, I sought out and applied for lots of competitions and programs to help me along the way. As a way to both give back and work on my own skills,
         I compiled all these resources and put them together. I used the project to learn small things like version control (GitHub), media queries, JSON data, Google Fonts, and client-side JavaScript. </p>
-          <div class="pics">
+          <div class="ent21">
             <a href="Entrepreneur21/index.html">
                 <img src="images/Entrepreneur21.png">
             </a>
