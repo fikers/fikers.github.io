@@ -195,8 +195,80 @@ ul {
 	display: inline;
 }
 
+.getintouch {
+	background-color: white;
+}
 
+.getintouchform {
+	text-align: left;
+	padding: 50px;
+	font-size: 15px;
+	background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 20%, #2a5298 100%);
+}
+
+.getintouchform h2 {
+	color: white;
+	font-size: 25px;
+}
+.getintouchform input {
+	background-color: white;
+	background-color: rgba(0,0,0,.2);
+	margin: auto;
+	color: white;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 10px;
+}
+
+.getintouchform input[type=submit] {
+	background-color: rgba(0,0,0,0);
+	color: white;
+	border: 1px grey solid;
+	width: 50%;
+	margin-top: 20px;
+}
+
+.getintouchform textarea {
+	color: white;
+	background-color: rgba(0,0,0,.2);
+	margin: auto;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 10px;
+}
+
+.getintouch h5 {
+	color: grey;
+}
+
+.contacttype {
+	margin-bottom: 70px;
+	font-size: 15px;
+}
+
+.contacttype img {
+	height: 25px;
+	margin: 10px;
+}
+
+.map img {
+	height: 300px;
+}
+
+.footer {
+	padding: 50px;
+	text-align: center;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.footer a {
+	padding: 20px;
+}
 /*
+
 
 
 

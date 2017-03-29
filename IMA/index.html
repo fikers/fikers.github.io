@@ -37,11 +37,12 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Doctors</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Insurances</a></li>
-            <li><a href="#">Patient Portal</a></li>
-            <li><a href="#" style="background-color: white; color: black;">Get in Touch</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/doctors.html">Doctors</a></li>
+            <li><a href="pages/services.html">Services</a></li>
+            <li><a href="pages/insurances.html">Insurances</a></li>
+            <li><a href="pages/patientportal.html">Patient Portal</a></li>
+            <li><a href="#getintouchlink" style="background-color: white; color: black;">Get in Touch</a></li>
         </div>
       </div>
     </div>
@@ -49,13 +50,12 @@
       <div class="calltoaction jumbotron">
         <h1 >Welcome to Indus Medical Associates</h1>
         <p>Excellent care is our specialty</p>
-        <div class="learnmorebutton">Learn More</div>
+        <a href="#aboutuslink"><div class="learnmorebutton">Learn More</div></a>
       </div>
     </div>
-
   </div>
 
-  <div class="jumbotron aboutussection">
+  <div id="aboutuslink" class="jumbotron aboutussection">
     <div class="container">
       <h2 >Meet Dr. Syed Azam and Dr. Farzana Qureshi</h2>
 
@@ -97,7 +97,7 @@
           <div class="circle">
             <div class="number">5
             <div class="text">specialties</div>
-</div>
+        </div>
           </div>
         </div>
 
@@ -107,9 +107,7 @@
             <div class="text">years of experience</div>
           </div>
         </div>
-
     </div>
-
       </div>
     </div>
 
@@ -129,16 +127,48 @@
     </div>
   </div>
 
-  <div class="jumbotron getintouch">
+  <div class="jumbotron getintouch" id="getintouchlink">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-              <p> test</p>
+
+            <div class="col-md-6" style="padding: 20px;">
+              <h2> We'de love to hear from you!</h2>
+              <h5 style="margin-bottom: 50px; margin-top: 20px;"> Here's how you can reach us </h5>
+              <div class="contacttype"><img src="images/phone.png"><a href="tel:760-202-0686">760.202.0686</a></div>
+              <div class="contacttype"><img src="images/email.png"><a href="mailto:info@indusmedicalassociates.org">info@indusmedicalassociates.org</a> </div>
+              <div class="contacttype"><img src="images/address.png"> <a href="https://www.google.ca/maps/place/35400+Bob+Hope+Drive,+Rancho+Mirage,+CA+92270/"> 35400 Bob Hope Drive, Rancho Mirage, CA, 92270</a></div>
             </div>
+
+            <div class="col-md-6">
+              <form class="getintouchform" action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <h2> Get in touch</h2><br>
+                <input type="Name" value="Name"><br>
+                <input type="Phone Number" value="Phone Number"><br>
+                <textarea name="Comment" rows="5" value="">Enter your message</textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+
         </div>
     </div>
   </div>
 
+  <div class="map">
+        <a href="https://www.google.ca/maps/place/35400+Bob+Hope+Drive,+Rancho+Mirage,+CA+92270/"><img src="images/map.png" style="width: 100%"></a>
+    </div>
+
+
+    <div class="footer">
+    <p style="text-align: center; display: inline;">
+      Copyright &copy; 2017
+      <a href="index.html">Home</a> |
+      <a href="pages/doctors.html">Doctors</a> |
+      <a href="pages/services.html">Services</a> |
+      <a href="pages/insurances.html">Insurances</a> |
+      <a href="pages/patientportal.html">Patient Portal</a>
+
+
+    </p></div>
 
 
 </body>
