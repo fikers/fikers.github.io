@@ -1,6 +1,7 @@
 /* CSS that applies to every element on page */
 * {
 	border: 0px solid black;
+	overflow-x: hidden;
 }
 
 html {
@@ -267,25 +268,25 @@ ul {
 .footer a {
 	padding: 20px;
 }
-/*
 
 
 
-
-
-.quickhistory {
-	width: 80%;
-	margin: 20px auto;
+.patientportal {
+	padding:0px;
+  background-image: url("../images/patientportal.jpg");
+	background-size:cover;
+	height: 50%;
 }
 
-
-@media (max-width: 992px) {
-
-	.col-md-4 {
-		text-align: center;
-		margin: 0 auto;
-	}
-
+.linktoportal {
+	padding-top: 25px;
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
 }
 
-*/
+.linktoportal img {
+	height: 150px;
+	margin-top: 30px;
+
+}
