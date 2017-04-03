@@ -1,7 +1,7 @@
 const data = [
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"TigerLaunch"
     ,Link:"http://www.tigerlaunch.com/"
     ,Notes:"TigerLaunch is a national entrepreneurship competition hosted by Princeton University. There are multiple rounds, starting with an application, then regionals, then a final competition at Princeton. 2017 Finals are April 7-8, 2017 - look out for next year."
@@ -22,14 +22,14 @@ const data = [
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Rice Business Plan Competition"
     ,Link:"http://www.ricebusinessplancompetition.com/"
     ,Notes:"Rice Business Plan competition is the largest startup pitch competition in the country. $1 million + in funding available - however, it is for graduate students."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Northwestern University Venture Challenge"
     ,Link:"https://nuvc.nuisepic.com/"
     ,Notes:"Northwestern University's pitch competition - over $50k in prizes available in the past and has been open to NU students and alum in past. No updates for 2017 yet but competition usually happens around mid-year. Site is currently down."
@@ -113,119 +113,119 @@ const data = [
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"MIT 100K"
     ,Link:"http://www.mit100k.org/"
     ,Notes:"Pitch competition hosted by MIT. At least one team member must have MIT affiliation. There are 3 phases and prize money is given in each phase, leaving to the third phase where 100k is awarded."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Tufts $100K New Ventures Competition"
     ,Link:"http://gordon.tufts.edu/competitions/100k-new-ventures-competition"
     ,Notes:"Pitch competition hosted by Tufts. At least one team member must have Tufts affiliation. Teams must be under 5 people. Deadline in Jan 2017."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"New Ventures Competition"
     ,Link:"http://www.hbs.edu/newventurecompetition/Pages/default.aspx"
     ,Notes:"Pitch competition hosted by Harvard Business School. Two tracks: Business and Social Enterprise. Business must have at least 1 HBS affiliated team member and Social Enterprise teams must be half HBS affiliated."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Burton D. Morgan Business Plan Competition"
     ,Link:"http://www.purdue.edu/discoverypark/bdmce/competitions/business-plan-competition/index.php"
     ,Notes:"Pitch competition hosted by Purdue University. Team members must be Pursue students. Closed for 2017."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Schurz Innovation Challenge at Purdue Fall 2017"
     ,Link:"http://www.purdue.edu/discoverypark/bdmce/competitions/schurz-innovation-challenge.php"
     ,Notes:"Pitch competition hosted by Purdue University for Purdue students. Focused on digital media ideas. Teams must be made of Purdue students."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"University of Chicago New Venture Challenge"
     ,Link:"https://research.chicagobooth.edu/nvc"
     ,Notes:"NVC is an accelerator that ends with a pitch competition. There are four tracks: NVC, Social NVC, Global NVC, and College NVC. College NVC is for college students with a requirement that the majority of the team members are undergrads and at least one from Chicago."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"University of Pennsylvania Startup Challenge"
     ,Link:"http://entrepreneurship.wharton.upenn.edu/startup-challenge/"
     ,Notes:"Pitch competition hosted by University of Pennsylvania. Multi-round, structured program. Team leader must be a University of Pennsylvania student. Groups must not have gotten over $100K in institutional funding."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"McGinnis Venture Competition"
     ,Link:"http://www.cmu.edu/swartz-center-for-entrepreneurship/events/mcginnis-venture-competition/"
     ,Notes:"Pitch competition hosted by Carnegie Mellon University. Multi-round, structured program with two virtual rounds and a final live pitch. Over $60k in investments available, 50k of which is towards the graduate student track. Final round in March 2017."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Carnige Mellon University Venture Challenge"
     ,Link:"http://cmuvc.cmuuea.com/en/"
     ,Notes:"Pitch competition hosted by Carnegie Mellon University. However, open to all undergrads from any university. Must submit executive summary and pitch deck. First round application due in November and final competition in April of year."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"University of Dayton Business Plan Competition"
     ,Link:"http://sbaweb.udayton.edu/udbpc/"
     ,Notes:"Pitch competition hosted by University of Dayton. Three stages. First place prize is $25K. Applications due in October of year."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Duke Startup Challenge"
     ,Link:"http://www.dukestartupchallenge.org/"
     ,Notes:"Pitch competition hosted by Duke University. Teams compete in three rounds over the course of 11 months. Teams must be made of students affiliated with Duke. Teams get $5k to work on their ventures full time over the summer and compete for $50k in the final round. First rounds due by October of the year."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"University of Oregon New Venture Championship"
     ,Link:"http://nvc.uoregon.edu/"
     ,Notes:"Pitch competition hosted by University of Oregon for graduate students. Teams with less than half undergraduate students may compete. There are 50k of prizes available. First round applications due in November of given year."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"University of California Berkley LAUNCH Competition"
     ,Link:"http://launch.berkeley.edu/"
     ,Notes:"University of California Berkley-affiliated accelerator that leads to a pitch competition with $90k in prize money. Applications due in November of the year."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Syracuse University Panasci Business Plan Competition"
     ,Link:"http://whitman.syr.edu/programs-and-academics/centers-and-institutes/falcone/for-students/panasci/index.aspx"
     ,Notes:"Pitch competition hosted by Syracuse University. Team leader must be a Syracuse University current student, undergraduate or graduate. Teams must have received under $100k in institutional investments. Applications due in January of the year."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"NYS Business Plan Competition"
     ,Link:"http://cnse.albany.edu/NYSBusinessPlanCompetition.aspx"
     ,Notes:"Pitch competition for New York University school students. 150k in funding and in-kind services. First place prize is $50k."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Giants Entrepreneurship Challenge"
     ,Link:"https://business.und.edu/undergraduate/school-of-entrepreneurship/entrepreneurship/entrepreneurship-challenge.cfm"
     ,Notes:"Pitch competition hosted by University of North Dakota. Different prize categories available. First round applications due in March of year."
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Baylor New Venture Competition"
     ,Link:"http://www.baylor.edu/business/newventurecompetition/"
     ,Notes:"Pitch competition hosted by Baylor University. Two tracks: Internet and Consumer Technology Companies, and Non-Internet and Consumer Technology Companies. First round applications due in November of year."
@@ -260,7 +260,7 @@ const data = [
   },
   {
      Type:"Competitions"
-    ,Category:"University Competition"
+    ,Category:"Competition - University"
     ,Name:"Its A Start Competition"
     ,Link:"http://itsastart.ca/2017/"
     ,Notes:"Canadian competition hosted by George Brown College. Focus on gaming."
@@ -621,4 +621,20 @@ const data = [
     ,Name:"How to Start a Startup"
     ,Link:"http://startupclass.samaltman.com/"
     ,Notes:"Series of 20 online lectures that deliver the gist of the content and advice given to YC participants - taught by people like Paul Graham, Reid Hoffman, etc."
-  }]
+  },
+  {
+     Type:"Tools and Resources"
+    ,Category:"Reference"
+    ,Name:"WallStreetOasis"
+    ,Link:"http://wallstreetoasis.com/"
+    ,Notes:"WallStreetOasis is an online forum for learning about all things related Wall Street and finance. The forum has a lot of information, including discussions on entrepreneurship and venture capital. Note: given the site's audience, there's a big bias towards finance over riskier paths like entrepreneurship."
+  },
+  {
+    Type:"Tools and Resources"
+    ,Category:"Reference"
+    ,Name:"Mergers and Inquisitions"
+    ,Link:"http://www.mergersandinquisitions.com/"
+    ,Notes:"Another great resource to learn about finance things mostly but still has interesting information that might be relevant to students interested in venture capital or trying to understand the finances behind starting a venture."
+  },
+
+]

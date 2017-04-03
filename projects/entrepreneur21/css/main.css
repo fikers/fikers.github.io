@@ -49,7 +49,7 @@ div {
 	background-image: url("../images/pic4.jpg");
 	background-size:cover;
 	height: 100%;
-	min-height: 600px;
+	min-height: 700px;
 }
 
 .front-fold-container {
@@ -86,9 +86,8 @@ div {
 	height: auto;
 	position: relative;
 	text-align: center;
-	color: white;
 	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%) no-repeat;
-	padding:10px;
+	padding:20px;
 	border-radius: 10px;
 }
 
@@ -98,22 +97,29 @@ div {
 	text-align: center;
 }
 
-.form-format {
-	color: black;
-	padding: 15px;
-	border-radius: 5px;
-	height: 40px;
-	width: 30%;
-	display: inline-block;
+.row.formRow {
+	width: 90%;
+	margin-bottom: 0px;
+}
+.col-md-4 {
+	margin: 0px;
+	padding: 0px;
 }
 
-.form-button {
-	color: white;
-	background-color: var(--color);
-	padding: 0px 30px;
-	border-radius: 5px;
+.formformattting {
+	font-size: 15px;
+	width: 97%;
+	margin:0px;
+	padding: 5px;
+	border-radius: 3px;
 	height: 40px;
 }
+
+.formbutton {
+	background-color: black;
+	color: white;
+}
+
 
 .row {
 	margin: 0 auto;
@@ -157,7 +163,8 @@ div {
 }
 
 .entriesHeader ul button:focus {
-	background-color: green;
+	background-color: #00a9ec ;
+	color: white;
 }
 
 /* Table */
@@ -215,6 +222,9 @@ div {
 	background-color: #00a9ec;
 	border-radius: 3px;
 	padding: 7px;
+	width: 50%;
+	height: auto;
+	display: inline-block;
 }
 
 .linkHeaderColor2 {
@@ -226,6 +236,9 @@ div {
 	background-color: #005D80;
 	border-radius: 3px;
 	padding: 7px;
+	display: inline-block;
+	width: 50%;
+	height: auto;
 }
 .notesHeader {
 	width: 360px;
@@ -250,20 +263,29 @@ div {
 	margin: 0px;
 }
 
+.addtoForm {
+	height: auto;
+	padding-bottom: 30px;
+}
 
+.addtoForm p {
+	font-size: 15px;
+	text-align: center;
+}
 
-
-
-
-
-
-
-
-
+.thankyou h2 {
+	font-size: 15px;
+	color: white;
+}
 
 /* The following CSS is for adjusting the page if the screen width is between 449px and 992px */
 
+@media (max-width: 683px) {
+
+}
+
 @media (max-width: 992px) {
+
 
 	#where-pic-taken-text {
 		display: none;
@@ -276,85 +298,96 @@ div {
 
 	.front-fold-main-content {
 	text-align: center;
-    font-size:40px;
-    top: 20%;
+    font-size:30px;
+    top: 15%;
 	}
 
 	.form {
 	margin: 0 auto;
 	height: auto;
 	position: relative;
-	top:30%;
+	top:20%;
 	text-align: center;
-	color: white;
 	}
 
 	.form-format {
 	padding: 15px;
-	width: 30%;
 	margin-bottom: 5px;
 	font-size: 15px;
 	}
 
 	.form-button {
-	color: white;
 	background-color: var(--color);
 	padding: 0px 30px;
 	border-radius: 5px;
 	height: 40px;
 	font-size: 15px;
+	}
 
-}
+	.entriesHeader ul button {
+		display: block;
+		width: 90%;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 5px;
+	}
+
+	tbody {
+		display: none;
+	}
+
+	.entriesTable .nameHeader {
+		font-weight: bold;
+		padding-top: 20px;
+	}
+
+	.entriesTable .categoryHeader {
+		width: 30%;
+		display: inline-block;
+	}
+
+	.entriesTable .notesHeader {
+		width: 60%;
+		display: inline-block;
+		text-align: left;
+	}
+
+	.entriesTable .linkHeader a {
+		width: 60%;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.entriesTable .linkHeaderColor2 a {
+		width: 60%;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.entriesTable tr td {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
 
 }
 
 /* The following CSS is for adjusting the page if the screen width is less than 414px  */
 
+@media (max-width: 1200px) {
 
-@media (max-width: 652px) {
-
-
-	.form {
-	margin: -50px auto;
-	height: auto;
-	position: relative;
-	top:27%;
-	text-align: center;
-	color: white;
-	}
-
-	.form-format {
-	padding: 15px;
-	width:80%;
-	height: 40px;
-	margin-bottom: 5px;
-	font-size: 15px;
-	display: block;
-	text-align: center;
-	margin:5px auto;
-	}
-
-	.form-button {
-	color: white;
-	background-color: var(--color);
-	padding: 0px 30px;
-	border-radius: 5px;
-	height: 40px;
-	font-size: 15px;
-	display: block;
-	text-align: center;
-	margin:5px auto;
-	width:80%;
-	}
-
-
-	.front-fold-main-content {
-		top: 12%;
-		font-size:30px;
+	.entriesHeader ul button {
+		display: block;
+		width: 90%;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 5px;
 	}
 
 }
-
 
 /* CSS Arrow */
 /* Source: http://codepen.io/dodozhang21/pen/siKtp/ */
