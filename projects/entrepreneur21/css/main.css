@@ -56,7 +56,6 @@ div {
 	padding:0px;
 }
 
-
 .front-fold-main-content {
 	text-align: center;
 	color:white;
@@ -120,16 +119,13 @@ div {
 	color: white;
 }
 
-
 .row {
 	margin: 0 auto;
 	margin-bottom: 15px;
 	width: 100%;
-
 }
 
 /* Main Section */
-/* 	background-color: #00a9ec; For Reference Later */
 
 .main-section {
 	background-color: #fff;
@@ -147,6 +143,7 @@ div {
 	text-align: center;
 	color: #00a9ec;
 }
+
 .entriesHeader ul button {
 	font-size: 15px;
 	font-weight: 400px;
@@ -186,7 +183,6 @@ div {
 	color: black;
 	padding-top: 10px;
 	padding-bottom: 10px;
-
 }
 
 #headerBottomBorder {
@@ -280,12 +276,11 @@ div {
 
 /* The following CSS is for adjusting the page if the screen width is between 449px and 992px */
 
-@media (max-width: 683px) {
-
-}
-
 @media (max-width: 992px) {
 
+	.tableRow {
+		display: block;
+	}
 
 	#where-pic-taken-text {
 		display: none;
@@ -297,17 +292,17 @@ div {
 	}
 
 	.front-fold-main-content {
-	text-align: center;
+		text-align: center;
     font-size:30px;
     top: 15%;
 	}
 
 	.form {
-	margin: 0 auto;
-	height: auto;
-	position: relative;
-	top:20%;
-	text-align: center;
+		margin: 0 auto;
+		height: auto;
+		position: relative;
+		top:20%;
+		text-align: center;
 	}
 
 	.form-format {
