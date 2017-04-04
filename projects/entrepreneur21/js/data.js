@@ -487,7 +487,7 @@ const data = [
     ,Category:"Learn Programming"
     ,Name:"TreeHouse"
     ,Link:"https://teamtreehouse.com/"
-    ,Notes:"Same at LinkedIn Learning. High quality online courses. Some universities offer free subscriptions so check if your university does."
+    ,Notes:"Same as LinkedIn Learning. High quality online courses. Some universities offer free subscriptions so check if your university does."
   },
   {
      Type:"Tools and Resources"
@@ -636,5 +636,11 @@ const data = [
     ,Link:"http://www.mergersandinquisitions.com/"
     ,Notes:"Another great resource to learn about finance things mostly but still has interesting information that might be relevant to students interested in venture capital or trying to understand the finances behind starting a venture."
   },
-
+  {
+    Type:"Tools and Resources"
+    ,Category:"Learn Programming"
+    ,Name:"Free Programming Books"
+    ,Link:"https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md"
+    ,Notes:"Someone compiled a huge list of programming books divided by language."
+  }
 ]
