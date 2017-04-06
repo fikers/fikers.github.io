@@ -305,7 +305,7 @@ const data = [
     ,Category:"Funding"
     ,Name:"1517"
     ,Link:"http://www.1517fund.com/"
-    ,Notes:"Fund for student entrepreneurs by Peter Thiel. Offer small amounts of funding for promising ideas. Also travel to schools for office hours - you can reach out from their site too."
+    ,Notes:"Fund for student entrepreneurs. Offer small amounts of funding for promising ideas + can connect you with relevant people. Also travel to schools for office hours - you can reach out from their site."
   },
   {
      Type:"Opportunities"
@@ -638,9 +638,30 @@ const data = [
   },
   {
     Type:"Tools and Resources"
+    ,Category:"Reference"
+    ,Name:"Stanford Entrepreneurial Thought Leaders Seminar"
+    ,Link:"http://etl.stanford.edu/"
+    ,Notes:"A quality speaker series from Stanford University with talks from famous entrepreneurs and venture capitalists."
+  },
+  {
+    Type:"Tools and Resources"
+    ,Category:"Reference"
+    ,Name:"Stanford eCorner"
+    ,Link:"http://ecorner.stanford.edu/"
+    ,Notes:"Stanford University's list of resources for student entrepreneurs - filled with insightful content (videos, articles, podcasts)."
+  },
+  {
+    Type:"Tools and Resources"
     ,Category:"Learn Programming"
     ,Name:"Free Programming Books"
     ,Link:"https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md"
     ,Notes:"Someone compiled a huge list of programming books divided by language."
+  },
+  {
+    Type:"Tools and Resources"
+    ,Category:"Learn Programming"
+    ,Name:"MIT OpenCourseWare (OCW)"
+    ,Link:"https://ocw.mit.edu/"
+    ,Notes:"MIT essentially publishes all their courses online - huge set of courses offered at one of the top engineering universities in the world - pretty wild if you think about it. "
   }
 ]
