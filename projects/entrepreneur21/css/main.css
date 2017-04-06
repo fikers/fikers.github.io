@@ -274,9 +274,17 @@ div {
 	color: white;
 }
 
+.col-md-2 img {
+	height: 20px;
+}
+
 /* The following CSS is for adjusting the page if the screen width is between 449px and 992px */
 
 @media (max-width: 992px) {
+
+	.col-md-2 img {
+		display: none;
+	}
 
 	.tableRow {
 		display: block;
