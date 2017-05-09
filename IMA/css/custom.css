@@ -282,6 +282,7 @@ ul {
 	padding: 25px;
 	padding-bottom: 50px;
 	padding-top: 50px;
+	height: 128px;
 	margin: 5px;
 	width: 32%;
 	color: white;
@@ -289,7 +290,8 @@ ul {
 }
 
 .ourservices .row .col-md-4:hover{
-	background-color: grey;
+	background-color: white;
+	color: black;
 }
 
 
@@ -527,4 +529,9 @@ ul {
 
 .ppbox {
 	background-color: #333;
+}
+
+.descitem {
+	font-size: 15px;
+	display: none;
 }
