@@ -25,7 +25,7 @@
 
   <!-- frontfold set ups a full screen background image -->
   <div class="frontfold">
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -41,87 +41,89 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
-            <li><a href="pages/doctors.html">Providers</a></li>
+            <li><a href="pages/providers.html">Providers</a></li>
             <li><a href="pages/services.html">Services</a></li>
             <li><a href="pages/insurances.html">Insurances Accepted</a></li>
             <li><a href="pages/patientportal.html">Patient Portal</a></li>
-            <li><a href="#getintouchlink" id="getintouchbutton">Get in Touch</a></li>
+            <li><a href="pages/getintouch.html">Get in Touch</a></li>
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="calltoaction jumbotron">
+      <!-- <div class="calltoaction jumbotron">
         <h1 >Welcome to Indus Medical Associates</h1>
         <p>Excellent care is our purpose</p>
-        <a href="#aboutuslink"><div class="learnmorebutton">Learn More</div></a>
+         <a href="#aboutuslink"><div class="learnmorebutton">Learn More</div></a>
+      </div> -->
+
+    </div>
+
+      <div id="aboutuslink" class="aboutussection">
+
+          <!-- <div class="row">
+
+            <div class="col-md-5">
+              <p style="text-align:center; margin: 0 auto;"><img src="images/staff.png" style="height: 300px; margin-top: 50px;"></p>
+            </div>
+
+            <div class="col-md-7">
+              <h2 style="padding-top: 25px;" >Welcome to Indus Medical Associates</h2>
+
+              <h3 style="text-align: left; padding-bottom: 20px;">Excellent Care is Our Purpose</h3>
+
+              <p>
+                At Indus Medical Associates, we strive to provide comprehensive medical care for adults with a strong focus on disease prevention.
+                Our physicians and nurse practitioners work together to plan your care, following the most current standards and guidelines.
+                We leverage the latest in medical research and technology innovation to provide you with the best possible health care and experience.
+                Our highly experienced staff works around the clock to make sure you have the best experience possible.
+              </p>
+              <br>
+            </div>
+
+        </div> -->
+        <div class="row">
+          <div class="col-md-12">
+
+              <h2 style="padding-top: 25px;" >Welcome to Indus Medical Associates</h2>
+
+              <!-- <h3 style="text-align: center; padding-bottom: 20px;">Excellent Care is Our Purpose</h3> -->
+
+              <p>
+                At Indus Medical Associates, we strive to provide comprehensive medical care for adults with a strong focus on disease prevention.
+                Our physicians and nurse practitioners work together to plan your care, following the most current standards and guidelines.
+                We leverage the latest in medical research and technology innovation to provide you with the best possible health care and experience.
+                Our highly experienced staff works around the clock to make sure you have the best experience possible.
+              </p>
+
+          </div>
+
+        </div>
+
+        <div class="container">
+
+        <div class="row">
+          <div class="col-md-12"><h3 style="text-align:left;"></h3></div>
+
+        </div>
+
+        <div class="row frontimages" style="margin-top: 20px;">
+          <div class="col-md-4"><a href="pages/providers.html"><div class="imagebox"><h3>Providers</h3><br><img src="images/1.svg"></div></a></div>
+          <div class="col-md-4"><a href="pages/services.html"><div class="imagebox"><h3>Services</h3><br><img src="images/3.svg"></div></div>
+          <div class="col-md-4"><a href="pages/insurances.html"><div class="imagebox"><h3>Insurances</h3><br><img src="images/2.svg"></div></div>
+        </div>
+        <!-- <hr style="margin-top:0px"> -->
+
+
+    <!-- This is where the stats section was before -->
+
+        </div>
       </div>
     </div>
   </div>
 
-  <div id="aboutuslink" class="jumbotron aboutussection">
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-3">
-          <p style="text-align:center; margin: 0 auto;"><img src="images/doc1.png" style="height: 200px; margin-top: 50px;"></p>
-        </div>
-
-        <div class="col-md-9">
-          <h2 >Meet Dr. Syed Azam and Team</h2>
-
-          <p>
-            At Indus Medical Associates, we strive to provide comprehensive medical care for adults with a strong focus on disease prevention.
-            Our physicians and nurse practitioners work together to plan your care, following the most current standards and guidelines.
-            We levrage the latest in medical research and technology innovation to provide you with the best possible health care and experience.
-            Our highly experienced staff works around the clock to make sure you have the best experience possible.
-          </p>
-          <br>
-          <div class="reststaffbutton"> Meet the rest of our staff</div>
-        </div>
-
-    </div>
-    <hr style="margin-top:0px">
 
 
-    <div class="row">
-      <div class="stats">
-
-      <div class="col-md-3">
-        <div class="circle">
-          <div class="number">4</div>
-          <div class="text">doctors</div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="circle">
-          <div class="number">4</div>
-          <div class="text">doctors</div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="circle">
-          <div class="number">5
-          <div class="text">specialties</div>
-      </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="circle">
-          <div class="number">82</div>
-          <div class="text">years of experience</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    </div>
-  </div>
-
-  <div class="ourservices">
+  <div class="ourservices" style="display:none">
     <div class="container">
       <h2>We provide a wide range of services</h2>
       <div class="row">
@@ -146,22 +148,6 @@
     </div>
   </div>
 
-<div class="insurances">
-  <div class="container">
-  <h2> Some of the insurances we accept</h2>
-</div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-2"><img src="images/humana.png" style="margin-top:20px;"></div>
-      <div class="col-md-2"><img src="images/cigna.png"></div>
-      <div class="col-md-2"><img src="images/unitedhealth.png" style="margin-top:20px;"></div>
-      <div class="col-md-2"><img src="images/bluecross.png"></div>
-      <div class="col-md-2"><img src="images/healthnet.png" style="margin-top:20px;"></div>
-      <div class="col-md-1"></div>
-    </div>
-  </div>
-</div>
 
 
 <!--
@@ -182,7 +168,7 @@
 
 -->
 
-  <div class="jumbotron getintouch" id="getintouchlink" >
+  <div class="jumbotron getintouch" id="getintouchlink" style="display:none" >
     <div class="container">
         <div class="row">
 

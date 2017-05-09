@@ -2,6 +2,7 @@
 * {
 	border: 0px solid black;
 	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 :root {
@@ -41,9 +42,9 @@ ul {
 */
 .navbar {
 	background-color: white;
-	border-bottom: none;
-	height: 100px;
-	padding: 20px;
+	border-bottom: 2px grey solid;
+	height: auto;
+	padding: 10px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -71,13 +72,19 @@ ul {
 
 .frontfold {
 	padding:0px;
-  background-image: url("../images/staff.png");
+	background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 	background-size:cover;
 	height: 100%;
 }
 
+.frontfold2 {
+	padding:0px;
+	background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+	background-size:cover;
+}
+
 .calltoaction {
-	padding-top: 20vh;
+	padding-top: 15vh;
 	background-color: rgba(0,0,0,0.0);
 }
 
@@ -103,7 +110,6 @@ ul {
 	font-weight: 500;
 	border: 2px white solid;
 	color: white;
-
 }
 
 .jumbotron {
@@ -112,10 +118,9 @@ ul {
 
 
 .aboutussection {
-	background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 	color: white;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 	margin-top: 00px;
 }
 
@@ -124,6 +129,7 @@ ul {
 	text-align: center;
 	margin: 0 auto;
 }
+
 .aboutussection p {
 	font-size: 15px;
 	line-height: 25px;
@@ -131,10 +137,10 @@ ul {
 }
 
 .aboutussection h2 {
-	font-size: 40px;
-	margin-bottom: 40px;
+	font-size: 50px;
+	margin-bottom: 30px;
 	color: white;
-	text-align: left;
+	text-align: center;
 }
 
 .aboutussection .col-md-6 p  {
@@ -154,8 +160,100 @@ ul {
 	font-style: italic;
 }
 
+.frontimages {
+	margin: 0 auto;
+	text-align: center;
+}
+.frontimages img {
+	height: 250px;
+}
+
+.frontimages h3 {
+	margin-bottom: 0px;
+}
+
+.frontimages .col-md-4 a {
+	color: white;
+}
+
+.frontimages .col-md-4 a:hover{
+	text-decoration: none;
+}
+
+.imagebox {
+	border: white 1px solid;
+	border-radius: 10px;
+	margin: 0 0px;
+	padding: 10px;
+}
+
+.imagebox:hover{
+	background-color: #333;
+}
+
+.providers {
+	margin-top: 100px;
+	color: white;
+	margin-bottom: 50px;
+}
+
+.providers img {
+	height: 200px;
+	width: 165px;
+}
+
+.providers h2 {
+	margin-bottom: 40px;
+	text-align: left;
+	font-size: 40px;
+}
+
+.providers .col-md-2 {
+	width: 19%;
+}
+
+.docbox {
+	font-size: 15px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px white solid;
+	padding: 5px;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+.docbox:hover, .docbox:active {
+	background-color: #333;
+}
+
+.docbox p {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.bio {
+	background: #333;
+	padding: 20px;
+	text-align: left;
+	margin-left: 0 auto;
+	color: white;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+.marupurubio, .hongbio, .kohgalebio, .warnebio {
+	display: none;
+}
+
+.bio p {
+	font-size: 15px;
+}
+
+.bio h5 {
+	font-size: 20px;
+}
 .ourservices {
-	padding-top: 0px;
+	padding-top: 50px;
 	padding-bottom: 00px;
 }
 
@@ -167,7 +265,7 @@ ul {
 .ourservices h2 {
 	font-size: 40px;
 	margin-bottom: 40px;
-	color: black;
+	color: white;
 	text-align: center;
 }
 
@@ -180,8 +278,10 @@ ul {
 	text-align: center;
 	font-size: 20px;
 	margin: 0 auto;
-	background: grey;
+	background: #333;
 	padding: 25px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 	margin: 5px;
 	width: 32%;
 	color: white;
@@ -189,14 +289,14 @@ ul {
 }
 
 .ourservices .row .col-md-4:hover{
-	background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+	background-color: grey;
 }
 
 
 .insurances {
-	padding-top: 50px;
+	padding-top: 100px;
+	color: white;
 	padding-bottom: 50px;
-	background-color: #f2f2f2;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -204,15 +304,28 @@ ul {
 .insurances h2 {
 	font-size: 40px;
 	margin-bottom: 40px;
-	color: black;
+	color: white;
 	text-align: center;
 }
 
 
 .insurances img {
-	width: 150px;
-	padding: 5px;
+	width: 200px;
+	padding: 15px;
 	margin: 5px;
+	background: white;
+	border-radius: 5px;
+}
+
+#otherinsurances {
+	margin: 0 auto;
+	width: 50%;
+	padding: 15px;
+	background: white;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+
 }
 
 .testimonials {
@@ -294,7 +407,13 @@ ul {
 }
 
 .getintouch {
-	background-color: white;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	color: white;
+}
+
+.getintouch a {
+	color: white;
 }
 
 .getintouchform {
@@ -302,6 +421,7 @@ ul {
 	padding: 50px;
 	font-size: 15px;
 	background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 20%, #2a5298 100%);
+	border: 2px white solid;
 }
 
 .getintouchform h2 {
@@ -336,7 +456,7 @@ ul {
 }
 
 .getintouch h5 {
-	color: grey;
+	color: #ddd;
 }
 
 .contacttype {
@@ -382,10 +502,15 @@ ul {
 
 
 .patientportal {
-	padding:0px;
-  background-image: url("../images/patientportal.jpg");
+	margin-top: 100px;
 	background-size:cover;
-	height: 50%;
+	color: white;
+	margin-bottom: 85px;
+}
+
+.patientportal h2{
+	margin-bottom: 20px;
+  font-size: 40px;
 }
 
 .linktoportal {
@@ -396,7 +521,10 @@ ul {
 }
 
 .linktoportal img {
-	height: 150px;
-	margin-top: 30px;
+	height: 170px;
+	margin-top: 50px;
+}
 
+.ppbox {
+	background-color: #333;
 }
