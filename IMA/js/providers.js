@@ -11,7 +11,7 @@ var kohgalebio = document.querySelector('.kohgalebio');
 var warnebio = document.querySelector('.warnebio');
 
 
-azam.onclick = function() {
+azam.onmouseover = function() {
   azambio.style.display = "block";
   marupurubio.style.display = "none";
   hongbio.style.display = "none";
@@ -19,7 +19,7 @@ azam.onclick = function() {
   warnebio.style.display = "none";
 }
 
-marupuru.onclick = function() {
+marupuru.onmouseover = function() {
   marupurubio.style.display = "block";
   azambio.style.display = "none";
   hongbio.style.display = "none";
@@ -27,7 +27,7 @@ marupuru.onclick = function() {
   warnebio.style.display = "none";
 }
 
-hong.onclick = function() {
+hong.onmouseover = function() {
   hongbio.style.display = "block";
   azambio.style.display = "none";
   marupurubio.style.display = "none";
@@ -35,7 +35,7 @@ hong.onclick = function() {
   warnebio.style.display = "none";
 }
 
-kohgale.onclick = function() {
+kohgale.onmouseover = function() {
   kohgalebio.style.display = "block";
   azambio.style.display = "none";
   marupurubio.style.display = "none";
@@ -43,7 +43,7 @@ kohgale.onclick = function() {
   warnebio.style.display = "none";
 }
 
-warne.onclick = function() {
+warne.onmouseover = function() {
   warnebio.style.display = "block";
   azambio.style.display = "none";
   marupurubio.style.display = "none";
