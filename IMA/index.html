@@ -7,6 +7,8 @@
   <meta charset="UTF-8">
   <meta name="google" content="notranslate">
   <meta http-equiv="Content-Language" content="en">
+
+
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <!-- Bootstrap CSS -->
@@ -15,9 +17,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
-    <meta name="viewport" content="initial-scale=1.0">
+  <meta name="viewport" content="initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
-  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- <script type="text/javascript" src="js/custom.js"></script> -->
+
 </head>
 
 
@@ -40,12 +43,22 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/providers.html">Providers</a></li>
+            <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+
+
+            <!-- <li><a href="index.html">Home</a></li>
+            <li class="dropdown"><a href="pages/providers.html">Providers</a></li>
             <li><a href="pages/services.html">Services</a></li>
             <li><a href="pages/insurances.html">Insurances Accepted</a></li>
             <li><a href="pages/patientportal.html">Patient Portal</a></li>
-            <li><a href="pages/getintouch.html">Get in Touch</a></li>
+            <li><a href="pages/getintouch.html">Get in Touch</a></li> -->
         </div>
       </div>
     </div>
