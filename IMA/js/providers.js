@@ -51,22 +51,15 @@ warne.onmouseover = function() {
   hongbio.style.display = "none";
 }
 
-//
-// const panels = Array.from(document.querySelectorAll('.panel'));
-// panels.forEach(function(panel){
-//   panel.onclick = function() {
-//     if ((Array.from(panel.classList)).includes('open')){
-//       console.log(Array.from(panel.classList));
-//       panel.classList.remove("open");
-//       panel.classList.remove("open-active");
-//       console.log(Array.from(panel.classList));
-//
-//     } else {
-//       panel.classList.add('open');
-//       panel.classList.add('open-active');
-// //        another way of doing the same thing!
-// //        panel.className += " open";
-// //        panel.className += " open-active";
-//   }
-//   }
-// })
+
+$(document).ready(function() {
+	$('#myCarousel').carousel({
+	interval: 10000
+	})
+
+    $('#myCarousel').on('slid.bs.carousel', function() {
+    	//alert("slid");
+	});
+
+
+});
