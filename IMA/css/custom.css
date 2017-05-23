@@ -82,6 +82,12 @@ ul {
 	margin: 0 auto;
 }
 
+.homepage {
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
 .carousel,.item,.active{height:100%;}
 
 .carousel-inner{height:100%;}
@@ -162,7 +168,9 @@ hr.fancy-line {
 	font-size: 3vw;
 	margin-bottom: 30px;
 	color: white;
-	text-align: center;
+	padding-top: 5px;
+	padding-left: 30px;
+	text-align: left;
 }
 
 .aboutussection h3{
@@ -663,4 +671,33 @@ hr.fancy-line {
 	background-color: white;
 	border: none;
 	box-shadow: none;
+}
+
+
+
+@media (max-width: 992px) {
+
+	.aboutussection h2{
+		text-align: left;
+		font-size: 5vw;
+		padding-top: 30px;
+	}
+
+	.aboutussection h3{
+		display: none;
+	}
+
+	#myCarousel {
+		display: none;
+	}
+
+	.carousel-caption{
+		display: none;
+	}
+
+	.homepage {
+		background: #082567;
+		opacity: .8;
+	}
+
 }
