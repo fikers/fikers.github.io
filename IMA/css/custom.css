@@ -263,15 +263,16 @@ hr.fancy-line {
 	padding: 0px;
 }
 
-.docbox img {
+.azam, .marupuru, .hong, .kohgale, .warne {
 	height: 200px;
 	border: 2px solid black;
 	border-radius: 5px;
 }
 
-.docbox img:hover {
-	transform: scale(1.1,1.1);
+.selected {
+	transform: scale(1.2,1.2);
 	border: 2px solid black;
+	border-radius: 5px;
 }
 
 
