@@ -58,8 +58,6 @@ ul {
 	font-weight: 500;
 }
 
-
-
 .navbar-header img {
 	display: inline-block;
 	height: 45px;
@@ -70,8 +68,9 @@ ul {
 
 @media screen and (max-width: 992px) {
 	.navbar-header img {
-		display: none;
+		margin-left: 0px;
 	}
+
 }
 
 /*  Carousel */
@@ -333,35 +332,6 @@ hr.fancy-line {
 	width: 32%;
 	color: white;
 	border-radius: 3px;
-}
-
-#preventivecare:hover {
-	padding-top: 30px;
-	border: 2px black solid;
-}
-
-#primarycare:hover {
-	padding-top: 30px;
-	border: 2px black solid;
-}
-
-#immigration:hover {
-	padding-top: 80px;
-	border: 2px black solid;
-}
-
-#dmvphysicals:hover {
-	padding-top: 50px;
-	border: 2px black solid;
-}
-
-#schoolphysicals:hover {
-	padding-top: 80px;
-	border: 2px black solid;
-}
-
-#immunizations:hover {
-	padding-top: 90px;
 	border: 2px black solid;
 }
 
@@ -370,8 +340,60 @@ hr.fancy-line {
 	font-weight: 300;
 	color: black;
 	padding-bottom: 20px;
-	padding-top: 20px;
-	font-size: 15px;
+	font-size: 12px;
+}
+
+#primarycare:hover {
+	padding-top: 50px;
+}
+
+#preventivecare:hover {
+	padding-top: 60px;
+}
+
+#immigrationphysical:hover {
+	padding-top: 80px;
+}
+
+#dmvphysicals:hover {
+	padding-top: 65px;
+}
+
+#schoolphysicals:hover {
+	padding-top: 85px;
+}
+
+#immunizations:hover {
+	padding-top: 95px;
+}
+
+
+@media (max-width: 1199px) {
+
+	#primarycare:hover {
+		padding-top: 35px;
+	}
+
+	#preventivecare:hover {
+		padding-top: 45px;
+	}
+
+	#immigrationphysical:hover {
+		padding-top: 70px;
+	}
+
+	#dmvphysicals:hover {
+		padding-top: 60px;
+	}
+
+	#schoolphysicals:hover {
+		padding-top: 65px;
+	}
+
+	#immunizations:hover {
+		padding-top: 80px;
+	}
+
 }
 
 .insurances {
@@ -438,8 +460,6 @@ hr.fancy-line {
 	font-size: 15px;
 	line-height: normal;
 }
-
-
 
 .quoteattribution {
 	float: left;
@@ -596,7 +616,7 @@ hr.fancy-line {
 }
 
 .descitem {
-	font-size: 15px;
+	font-size: 12px;
 	display: none;
 }
 
@@ -698,6 +718,16 @@ hr.fancy-line {
 	.homepage {
 		background: #082567;
 		opacity: .8;
+	}
+
+}
+
+@media (max-width: 650px) {
+
+	.aboutussection h2{
+		text-align: left;
+		font-size: 7vw;
+		padding-top: 0px;
 	}
 
 }
