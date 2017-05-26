@@ -619,6 +619,12 @@ hr.fancy-line {
 }
 
 
+#pptext {
+	color: black;
+	padding: 20px;
+}
+
+
 .linktoportal {
 	text-align: center;
 	margin: auto;
@@ -719,6 +725,22 @@ hr.fancy-line {
 
 @media (max-width: 992px) {
 
+	.ourservices .row .col-md-4 {
+		width: auto;
+		background-color: white;
+		color: black;
+		padding: 40px 30px;
+		height: auto;
+	}
+
+	.descitem{
+		display: block;
+	}
+
+	.serviceitem {
+		display: none;
+	}
+
 	.aboutussection h2{
 		text-align: left;
 		font-size: 5vw;
@@ -757,7 +779,7 @@ hr.fancy-line {
 @media (max-width: 1199px) {
 
 	.contacttype a {
-		font-size: 13px;
+		font-size: 15px;
 	}
 
 }
@@ -785,6 +807,7 @@ hr.fancy-line {
 
 
 @media (max-width: 768px) {
+
 
 	.dropdown-menu {
 	    display: none !important;
@@ -867,9 +890,16 @@ hr.fancy-line {
 	.contacttype {
 		text-align: left;
 		margin-bottom: 20px;
-		padding: 0 20px;
+		padding: 0 5px;
+	}
+
+		.contacttype img {
+			padding:0px;
 		}
 
+		.contacttype:last-child {
+			margin-bottom: 50px;
+		}
 		#mobilehide {
 			display: none;
 		}
@@ -880,6 +910,16 @@ hr.fancy-line {
 
 		.wellgetback2you {
 			margin-top: -50px;
+		}
+
+		#pptext {
+			text-align: center;
+			background-color: black;
+			color: white;
+		}
+
+		#pptext a {
+			color: white;
 		}
 
 
