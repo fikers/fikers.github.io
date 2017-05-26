@@ -27,19 +27,12 @@ ul {
 	-webkit-padding-start: 0px;
 }
 
-/* CSS affecting navigation section
 
-.navigation {
-	margin: 0 auto;
-	display: inline-block;
+.dropdown {
+	z-index: 100;
 }
 
-.col-md-4 {
-	background-color: rgba(0,0,0,0.3);
-	height: 70px;
-}
-
-*/
+/* CSS affecting navigation section */
 .navbar {
 	background-color: white;
 	border-bottom: 2px grey solid;
@@ -85,6 +78,7 @@ ul {
 	height: 100%;
 	text-align: center;
 	margin: 0 auto;
+	min-height: 700px;
 }
 
 .carousel,.item,.active{height:100%;}
@@ -125,6 +119,10 @@ ul {
 	margin-right: 0px;
 }
 
+.mobileformrow {
+	display: none;
+}
+
 hr {
 	margin-top: 0px;
 	margin-bottom: 60px;
@@ -137,6 +135,15 @@ hr.fancy-line {
     background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
     background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
     background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
+}
+
+
+.azam2, .marupuru2, .hong2, .kohgale2, .warne2 {
+	display: none;
+}
+
+.azambio2, .marupurubio2, .hongbio2, .kohgalebio2, .warnebio2 {
+	display: none;
 }
 
 /* CSS affecting front image section */
@@ -397,12 +404,17 @@ hr.fancy-line {
 }
 
 .insurances {
-	margin-top: 76px;
 	color: black;
 	text-align: center;
+	margin: 0 auto;
 	margin-bottom: 65px;
+	margin-top: 76px;
 }
 
+.insurances .col-md-2 {
+	text-align: center;
+	margin: 0 auto;
+}
 .insurances img {
 	width: 150px;
 	padding: 15px;
@@ -414,6 +426,8 @@ hr.fancy-line {
 .insurances img:hover {
 	transform: scale(1.05,1.05);
 }
+
+
 
 .testimonials {
   background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
@@ -545,6 +559,9 @@ hr.fancy-line {
 	font-size: 15px;
 }
 
+.getintouch .col-md-6 {
+}
+
 .contacttype img {
 	height: 25px;
 	margin: 10px;
@@ -552,6 +569,11 @@ hr.fancy-line {
 
 .map img {
 	height: 300px;
+}
+
+.wellgetback2you {
+	margin-bottom: 50px;
+	margin-top: 20px;
 }
 
 .footer {
@@ -730,4 +752,176 @@ hr.fancy-line {
 		padding-top: 0px;
 	}
 
+}
+
+@media (max-width: 1199px) {
+
+	.contacttype a {
+		font-size: 13px;
+	}
+
+}
+
+
+@media (max-width: 958px) and (min-width: 768px) {
+
+	.navbar-header {
+		display: none;
+	}
+}
+
+
+@media (max-width: 958px) {
+
+	.footer {
+		text-align: center;
+	}
+
+	.footer .row {
+		padding: 0px;
+	}
+
+}
+
+
+@media (max-width: 768px) {
+
+	.dropdown-menu {
+	    display: none !important;
+	}
+
+	.open .dropdown-menu {
+	    display: block !important;
+	}
+
+	.caret {
+		display: none;
+	}
+
+	.pagetitle {
+		font-size: 25px;
+	}
+
+	.providers {
+		min-height: 700px;
+	}
+
+	.row.bios {
+		display: none;
+	}
+
+	.azambio, .marupurubio, .hongbio, .kohgalebio, .warnebio {
+		display: block;
+	}
+
+	.bio {
+		text-align: center;
+		margin: 20px auto;
+	}
+	.azam2, .marupuru2, .hong2, .kohgale2, .warne2 {
+		text-align: center;
+		max-width: 200px;
+		width: 60%;
+		min-width: 40%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.azambio2, .marupurubio2, .hongbio2, .kohgalebio2, .warnebio2 {
+		display: block;
+	}
+
+	.providers .row-fluid {
+		display: none;
+	}
+
+	.well {
+		display: none;
+	}
+
+	/*For Insurance Page */
+
+	.insurances img {
+		min-width: 30%;
+		max-width: 50%;
+		padding-bottom: 50px;
+	}
+
+	/*For Patient Portal Page */
+
+	.linktoportal p {
+		font-size: 15px;
+		text-align: left;
+	}
+
+	.getintouch {
+		text-align: center;
+		padding-top: 72px;
+		padding-bottom: 20px;
+	}
+
+	.getintouchform input[type=submit] {
+		width: 100%;
+	}
+
+	.contacttype {
+		text-align: left;
+		margin-bottom: 20px;
+		padding: 0 20px;
+		}
+
+		#mobilehide {
+			display: none;
+		}
+
+		.mobileformrow {
+			display: block;
+		}
+
+		.wellgetback2you {
+			margin-top: -50px;
+		}
+
+
+}
+
+
+@media (max-width: 992px) and (min-width: 768px) {
+
+	.insurances img {
+		width: 100px;
+	}
+
+	/*For Get in Touch Form Page */
+
+	.getintouch {
+		text-align: center;
+		padding-top: 72px;
+	}
+
+	.getintouchform input[type=submit] {
+		width: 100%;
+	}
+
+	.contacttype {
+		text-align: left;
+		margin-bottom: 20px;
+		padding: 20px;
+	}
+
+	#mobilehide {
+			display: none;
+	}
+
+	.mobileformrow {
+		display: block;
+	}
+
+	.wellgetback2you {
+			margin-top: -50px;
+	}
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	margin-top: 10px;
 }
