@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1.0">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Admit Hero: Find Your Path</title>
+
+    <!-- data.js -->
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+	<div class="front-fold">
+		<div class="container">
+
+			<div class="header">
+				<div class="col-xs-6 remove-container-padding" id="flow-logo"><img src="images/AHLogoWhite.png" style="height:30px;"></div>
+				<div class="col-xs-6 remove-container-padding" id="where-pic-taken-text">
+					<p id="what-is-this-text"><button id="modal-box">Where was this picture taken?</button></p>
+				</div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h1 style="display:inline; color:#9246D3; font-weight: 700;">The Garage @ Northwestern</h1>
+                      <img src="./images/Collage.jpg">
+                  <p style="padding:10px; font-size:18px; margin-bottom:10px;">The Garage is Northwestern University's incubator space for student startups. <a href="https://thegarage.northwestern.edu/" style="font-style: italic;">Source</a> </p>
+                  </div>
+                </div>
+			</div>
+
+			<div class="front-fold-main-content">Find your Ideal Career</div>
+
+      <div class="form">
+
+      <form id="gform" method="POST" class="row formRow" action="https://script.google.com/macros/s/AKfycbxEIcaEfN8IkU3n7MEd93mmdzAHl2sWDeH2IjRFwZmC2pzAziU/exec">
+
+    			<div class="form-text" style="color: white;">
+            Everyone has a place in the world. We'll help you find yours: jobs, hobbies, passions and side hustles.  
+          </div>
+            <div class="col-md-4" style="width: 68%"><input for="email" type="email" value="" class="formformattting" name="email" id="email-input" required placeholder="Email Address"><span id="email-invalid" style="display: none"> Must be a valid email address</span></div>
+            <div class="col-md-4" style="width: 30%; float:right;" ><button type="submit" class="formformattting formbutton">Subscribe</button></div>
+        
+      </form>
+
+			<div class="bottom-content">Our Recent Emails</div>
+      
+      <div class="article-container">
+        <div class="col-md-3 article">Why is Product Management So Popular?</div>
+        <div class="col-md-3 article">How to Get Started Investing in High School</div>
+        <div class="col-md-3 article">Programming Guide for Complete Begginners</div>
+      </div>
+
+        
+
+        <div style="display:none;" class="thankyou" id="thankyou_message">
+          <h2><span style="font-size:20px;"> Thanks for signing up!</span> <br> <br> In the spirit of full honesty, I'll only make the group if over 100 people express interest. :)</h2>
+        </div>
+
+
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+	
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- My JavaScript -->
+    <script data-cfasync="false" type="text/javascript"
+    src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+
+</html>
