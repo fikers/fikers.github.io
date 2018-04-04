@@ -29,7 +29,7 @@ input {
 
 body {
 	height: 100%;
-font-family: 'Yantramanav', sans-serif;
+	font-family: 'Yantramanav', sans-serif;
 	font-size: 20px;
 	display: block;
 }
@@ -104,6 +104,7 @@ div {
 	color: white;
 	padding: 15px;
 	box-shadow: 4px 4px 4px black;
+	border-radius: 
 }
 
 
