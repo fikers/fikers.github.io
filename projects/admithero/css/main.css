@@ -5,7 +5,6 @@
 	padding: 0;
 	height: 100%;
 	box-sizing: border-box;
-	border: 1px solid transparent;
 }
 
 html{
@@ -66,8 +65,7 @@ div {
 	background-size:cover;
 	height: 100%;
 	min-height: 700px;
-		border:none;
-
+	border:none;
 }
 
 .front-fold-container {
@@ -81,6 +79,7 @@ div {
     position: relative;
     font-size:50px;
     top: 20%;
+	left:-50%;
 }
 
 .bottom-content {
@@ -93,20 +92,42 @@ div {
 .article-container {
 	font-size: 15px;
 	width: 600px;
+
 }
 
 .article {
 	margin-right: 20px;
 	width: 26%;
 	height: 100px;
-	background-color: #181F2F;
-	border: black 1px solid;
+	border:none;
 	color: white;
 	padding: 15px;
 	box-shadow: 4px 4px 4px black;
-	border-radius: 
+	border-radius: 3px;
+	background-color: #181F2F;
+	background: ##181F2F;  /* fallback for old browsers */
+	box-shadow: 2px 2px 5px black;
 }
 
+.article:hover{
+    box-shadow: 2px 2px 20px black;
+}
+
+.article>a{
+	color: white;
+	text-decoration-line: none;
+}
+
+
+.sm > img {
+	display: block;
+	height: 25px;
+	filter: grayscale(1);
+}
+
+.sm > img:hover {
+	filter: grayscale(0);
+}
 
 
 #flow-logo {
@@ -116,9 +137,18 @@ div {
 #what-is-this-text {
 	text-align: right;
 	margin-top:10px;
-	font-size: 14px;
+	font-size: 12px;
 	height: 50%;
+	color: white;
+	vertical-align: middle;
 }
+#what-is-this-text > a {
+	color: white;	
+	padding: 8px;
+	border: 1px solid white;
+}
+
+
 
 /* Form */
 
@@ -162,12 +192,19 @@ div {
 }
 
 .formbutton {
-	background-color: #181F2F;
 	color: white;
+background-color: #181F2F;
+	background: ##181F2F;  /* fallback for old browsers */
+    box-shadow: 6px 6px 8px clear;
 }
 
+
 .formbutton:hover{
-	background-color: orangered;
+    box-shadow: 2px 2px 8px black;
+	background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: orangered;
 }
 
 .row {
@@ -351,6 +388,10 @@ div {
 .textcontent > p {
 	padding-bottom: 50px;
 }
+
+.clear{
+	border: none;
+}
 /* The following CSS is for adjusting the page if the screen width is between 449px and 992px */
 
 @media (max-width: 992px) {
@@ -377,9 +418,6 @@ div {
 		display: block;
 	}
 
-	#where-pic-taken-text {
-		display: none;
-	}
 
 	#flow-logo {
 		width: 100%;
@@ -387,7 +425,7 @@ div {
 	}
 
 	.front-fold-main-content {
-	text-align: center;
+	text-align: left;
     font-size:30px;
     top: 15%;
 	}
