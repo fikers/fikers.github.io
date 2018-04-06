@@ -149,18 +149,6 @@ div {
 }
 
 
-.mc-field-group {
-	width: 100%;
-}
-
-.mc-embedded-subscribe{
-    width: 30%; 
-    display: inline-block;
-    margin: 0px; 
-}
-
-
-
 /* Form */
 
 .form {
@@ -404,6 +392,19 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 .clear{
 	border: none;
 }
+
+.mc-field-group {
+	width: 100%;
+}
+
+#mc-embedded-subscribe{
+    width: 30%; 
+    display: inline-block;
+    margin: 0px; 
+}
+
+
+
 /* The following CSS is for adjusting the page if the screen width is between 992px and 449px */
 
 .mc-field-group {
