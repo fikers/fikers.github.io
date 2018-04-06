@@ -154,9 +154,9 @@ div {
 }
 
 .mc-embedded-subscribe{
-    width: auto; 
-    display: block;
-    margin: 1em 0 1em 5%; 
+    width: 30%; 
+    display: inline-block;
+    margin: 0px; 
 }
 
 
