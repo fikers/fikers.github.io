@@ -149,6 +149,16 @@ div {
 }
 
 
+.mc-field-group {
+	width: 100%;
+}
+
+.mc-embedded-subscribe{
+	width: 100%;
+	float: right;
+}
+
+
 
 /* Form */
 
