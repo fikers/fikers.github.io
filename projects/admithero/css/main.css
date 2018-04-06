@@ -193,9 +193,10 @@ div {
 
 .formbutton {
 	color: white;
-background-color: #181F2F;
+	background-color: #181F2F;
 	background: ##181F2F;  /* fallback for old browsers */
     box-shadow: 6px 6px 8px clear;
+	width: 30%;
 }
 
 
@@ -392,7 +393,25 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 .clear{
 	border: none;
 }
-/* The following CSS is for adjusting the page if the screen width is between 449px and 992px */
+/* The following CSS is for adjusting the page if the screen width is between 992px and 449px */
+
+.mc-field-group {
+	width: 68%;
+}
+
+.mc-embedded-subscribe{
+	width: 30%;
+	float: right;
+}
+
+.randomspace1{
+	display: block;
+}
+
+
+#bankerspace {
+	padding-top:25px;
+}
 
 @media (max-width: 992px) {
 
@@ -410,96 +429,54 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 		margin-bottom: 25px;
 	}
 
-	.col-md-2 img {
-		display: none;
+	#what-is-this-text {
+		display:none;
 	}
 
-	.tableRow {
-		display: block;
-	}
-
-
-	#flow-logo {
+	.mc-field-group {
 		width: 100%;
-		text-align: center;
+	}
+
+	.mc-embedded-subscribe{
+	width: 100%;
+
+	}
+
+	.formbutton {
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.form {
+		width: auto;
 	}
 
 	.front-fold-main-content {
-	text-align: left;
-    font-size:30px;
-    top: 15%;
+		font-size: 1.5em;
+		margin-bottom: -20px;
 	}
 
-
-	.form {
-		margin: 0 auto;
-		height: auto;
-		position: relative;
-		top:20%;
-		text-align: center;
-	}
-
-	.form-format {
-	padding: 15px;
-	margin-bottom: 5px;
-	font-size: 15px;
-	}
-
-	.form-button {
-	background-color: var(--color);
-	padding: 0px 30px;
-	border-radius: 5px;
-	height: 40px;
-	font-size: 15px;
-	}
-
-	.entriesHeader ul button {
-		display: block;
+	.form-text{
+		font-size: .8em;
 		width: 90%;
-		text-align: center;
-		margin: 0 auto;
-		margin-bottom: 5px;
 	}
 
-	tbody {
+	.randomspace1 {
 		display: none;
 	}
 
-	.entriesTable .nameHeader {
-		padding-top: 20px;
+
+	.article-container{
+		width:100%;
 	}
 
-	.entriesTable .categoryHeader {
-		width: 30%;
-		display: inline-block;
+	.article {
+		height: auto;
+		width: auto;
+		margin-right: 0px;
+		margin-bottom: 10px;
 	}
 
-	.entriesTable .notesHeader {
-		width: 60%;
-		display: inline-block;
-		text-align: left;
-	}
-
-	.entriesTable .linkHeader a {
-		width: 60%;
-		display: inline-block;
-		margin-bottom: 20px;
-	}
-
-	.entriesTable .linkHeaderColor2 a {
-		width: 60%;
-		display: inline-block;
-		margin-bottom: 20px;
-	}
-
-	.entriesTable tr td {
-		display: block;
-		text-align: center;
-		margin: 0 auto;
-		width: 100%;
-		padding-top: 5px;
-		padding-bottom: 5px;
-	}
 
 }
 
@@ -550,60 +527,3 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
   @include animation(bounce 2s infinite);
 }
 
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.modal-content {
-    background-color: white;
-	color: black;
-    margin: 15% 15%; /* 15% from the top and centered */
-    padding: 20px;
-	height: 300px;
-	font-weight: 400;
-	text-align: center;
-}
-
-.modal-content img {
-	height: auto;
-	width: 90%;
-	text-align: center;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-#modal-box {
-	background: none;
-}
-
-/* The Close Button */
-.close {
-    color: black;
-    float: right;
-	margin-top: 0px;
-    font-size: 28px;
-    font-weight: bold;
-	height: auto;
-	margin-top: -10px;
-	margin-left: -10px;
-	opacity: 1;
-}
-
-.close:hover,
-.close:focus {
-    color: gray;
-    text-decoration: none;
-    cursor: pointer;
-}
